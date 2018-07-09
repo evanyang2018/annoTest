@@ -29,7 +29,7 @@ public class TestController {
      * @throw: 请描述异常信息
      */
     @RequestMapping(value = "getUsrById",method = RequestMethod.POST)
-    public String getUserById(@RequestParam("id")String id){
+    public String getUserById(@RequestParam("id")String id,String name){
         return "123123123123123123123";
     }
 }
